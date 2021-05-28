@@ -38,12 +38,6 @@ body{
     background-color: #15212C; 
 }
 
-.logMarvel{
-    display:flex;
-    margin:auto;  
-    
-}
-
 #prueba2{               /*ver esto tambein*/
     width: 100%;
     position: relative;
@@ -54,7 +48,7 @@ body{
     max-width: 100%;
 }
 
-.textoImg{   /*ver esto tambien*/
+.textImg{   /*ver esto tambien*/
     display: block;
     position: absolute;
     bottom: 5%;
@@ -62,13 +56,13 @@ body{
     background: rgba(2, 2, 2, 0.3);
     width: 100%;
     height: 30%;
-    padding: 8px 10%; 
+    padding: 8px 7%; 
 }
-#prueba2 .textoImg h1{    /*ver esto tambein*/
+#prueba2 .textImg h1{    /*ver esto tambein*/
     font-size: 300%;
     color: white;
 }
-#prueba2 .textoImg p{    /*ver esto tambein*/
+#prueba2 .textImg p{    /*ver esto tambein*/
     font-size: 150%;
     color: white;
 }
@@ -88,10 +82,10 @@ p{
 
 .prueba1{                               /*renombrar clase*/
     display: flex;
+    justify-content: center;
     background-image: url(/Imagenesgeneral/BackgroundsBody/5.jpg );
     background-attachment: fixed; 
     height:500px; 
-    overflow-y: scroll; 
 
 }
 .prueba{                                  /*renombrar clase*/
@@ -102,6 +96,10 @@ p{
     border-color:black;
     border-radius: 25px;
     overflow-y: scroll; 
+}
+
+.imgs{
+    width: 100%;
 }
 
 .pruebaAside{                                  /*renombrar clase*/
